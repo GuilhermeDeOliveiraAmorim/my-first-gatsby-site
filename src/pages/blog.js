@@ -4,12 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const BlogPage = () => {
     return (
-        <Layout pageTitle="About Me">
-            <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-            <StaticImage
-                alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                src="../images/wicker-baskets-6526674_960_720.jpg"
-            />
+        <Layout pageTitle="My Blog Posts">
+            <p>My cool posts will go in here</p>
         </Layout>
     )
 }
